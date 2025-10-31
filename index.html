@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuentro Sincrónico - Práctica 5 | ESDU</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-container">
+            <div class="header-brand">
+                <img src="https://esdu.ffyl.uncu.edu.ar/pluginfile.php/1/theme_adaptable/logo/1710238677/Logo_Esdu_Extendido.png" alt="ESDU" class="logo">
+                <div>
+                    <h1>Encuentro Sincrónico - Práctica 5</h1>
+                    <p>Diálogos sobre IA y Educación</p>
+                </div>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#inicio">Inicio</a>
+                <a href="#estructura">Estructura</a>
+                <a href="#momentos">Momentos</a>
+                <a href="https://bit.ly/esdu-meet" target="_blank" class="btn-meet">Unirse a Meet</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <blockquote>"La tecnología no es ni buena ni mala, pero tampoco es neutral"</blockquote>
+            <cite>Neil Postman</cite>
+            <p class="hero-subtitle">Propiciar una experiencia colectiva y significativa de exploración y reflexión sobre la IA en educación</p>
+        </div>
+    </section>
+
+    <!-- OBJETIVOS -->
+    <section class="objetivos-section">
+        <div class="container">
+            <div class="objetivos-grid">
+                <div class="objetivo-card">
+                    <div class="objetivo-icon">1</div>
+                    <h3>Reconocer</h3>
+                    <p>Nuestra experiencia y biografía tecnológica con IA</p>
+                </div>
+                <div class="objetivo-card">
+                    <div class="objetivo-icon">2</div>
+                    <h3>Conceptualizar</h3>
+                    <p>Fundamentos desde el libro "Conceptualizamos"</p>
+                </div>
+                <div class="objetivo-card">
+                    <div class="objetivo-icon">3</div>
+                    <h3>Explorar</h3>
+                    <p>Uso creativo de IA mediante avatar digital</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TIMELINE HORIZONTAL -->
+    <section class="timeline-section" id="estructura">
+        <div class="container">
+            <h2>Estructura del encuentro (90 minutos)</h2>
+            <div class="timeline-horizontal">
+                <div class="timeline-track">
+                    <div class="timeline-card" data-momento="1">
+                        <div class="timeline-time">10'</div>
+                        <h4>Bienvenida lúdica</h4>
+                        <p>Cámaras que piensan</p>
+                    </div>
+                    <div class="timeline-card" data-momento="2">
+                        <div class="timeline-time">15'</div>
+                        <h4>Reconocer</h4>
+                        <p>Biografías tecnológicas</p>
+                    </div>
+                    <div class="timeline-card" data-momento="3">
+                        <div class="timeline-time">20'</div>
+                        <h4>Conceptualizar</h4>
+                        <p>Mitos y verdades</p>
+                    </div>
+                    <div class="timeline-card" data-momento="4">
+                        <div class="timeline-time">35'</div>
+                        <h4>Explorar</h4>
+                        <p>Crear avatar</p>
+                    </div>
+                    <div class="timeline-card" data-momento="5">
+                        <div class="timeline-time">10'</div>
+                        <h4>Cierre</h4>
+                        <p>Reflexión final</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MOMENTOS CON TABS -->
+    <section class="momentos-section" id="momentos">
+        <div class="container">
+            <h2>Momentos del encuentro</h2>
+            
+            <!-- TABS NAVIGATION -->
+            <div class="tabs-nav">
+                <button class="tab-btn active" data-tab="momento1">Momento 1</button>
+                <button class="tab-btn" data-tab="momento2">Momento 2</button>
+                <button class="tab-btn" data-tab="momento3">Momento 3</button>
+                <button class="tab-btn" data-tab="momento4">Momento 4</button>
+                <button class="tab-btn" data-tab="momento5">Momento 5</button>
+            </div>
+
+            <!-- TAB CONTENT -->
+            <div class="tabs-content">
+                
+                <!-- MOMENTO 1 -->
+                <div class="tab-panel active" id="momento1">
+                    <div class="moment-header-tab">
+                        <h3>Bienvenida lúdica</h3>
+                        <span class="badge">10 minutos</span>
+                    </div>
+                    
+                    <div class="content-grid">
+                        <div class="content-main">
+                            <h4>Dinámica: Cámaras que piensan</h4>
+                            <p>Se leerán afirmaciones sobre IA. Si te identificas, enciende tu cámara. Si no, apágala.</p>
+                            
+                            <!-- CAROUSEL DE AFIRMACIONES -->
+                            <div class="carousel">
+                                <div class="carousel-container">
+                                    <div class="carousel-slide active">
+                                        <div class="afirmacion-numero">1/7</div>
+                                        <p class="afirmacion-text">Usé ChatGPT o alguna IA generativa más de tres veces este mes</p>
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <div class="afirmacion-numero">2/7</div>
+                                        <p class="afirmacion-text">Me genera más curiosidad que miedo la inteligencia artificial</p>
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <div class="afirmacion-numero">3/7</div>
+                                        <p class="afirmacion-text">Creo que mis estudiantes usan IA más de lo que imagino</p>
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <div class="afirmacion-numero">4/7</div>
+                                        <p class="afirmacion-text">Me preocupa que la IA reemplace mi rol como docente</p>
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <div class="afirmacion-numero">5/7</div>
+                                        <p class="afirmacion-text">Siento que necesito aprender más sobre IA para no quedarme atrás</p>
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <div class="afirmacion-numero">6/7</div>
+                                        <p class="afirmacion-text">Creo que la IA puede mejorar mis prácticas de enseñanza</p>
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <div class="afirmacion-numero">7/7</div>
+                                        <p class="afirmacion-text">Me cuesta distinguir cuándo un texto fue escrito por IA</p>
+                                    </div>
+                                </div>
+                                <button class="carousel-btn prev" onclick="moveCarousel(-1)">‹</button>
+                                <button class="carousel-btn next" onclick="moveCarousel(1)">›</button>
+                                <div class="carousel-dots"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="content-sidebar">
+                            <div class="info-box">
+                                <h5>Objetivo</h5>
+                                <p>Activar presencia y generar clima grupal mediante la visualización de la diversidad de posturas</p>
+                            </div>
+                            <div class="info-box reflexion">
+                                <h5>Reflexión</h5>
+                                <p>Esta diversidad es lo que necesitamos para construir una mirada crítica y fundamentada</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MOMENTO 2 -->
+                <div class="tab-panel" id="momento2">
+                    <div class="moment-header-tab">
+                        <h3>Reconocer biografías tecnológicas</h3>
+                        <span class="badge">15 minutos</span>
+                    </div>
+                    
+                    <div class="content-grid">
+                        <div class="content-main">
+                            <blockquote class="quote-box">
+                                "Cada uno de nosotros tiene una biografía tecnológica: un recorrido personal marcado por emociones, descubrimientos, frustraciones, sorpresas"
+                            </blockquote>
+                            
+                            <!-- ACORDEÓN DE PREGUNTAS -->
+                            <div class="accordion">
+                                <div class="accordion-item">
+                                    <button class="accordion-header">
+                                        <span>¿Cuál fue tu primer contacto significativo con IA?</span>
+                                        <span class="accordion-icon">+</span>
+                                    </button>
+                                    <div class="accordion-content">
+                                        <p>Puede ser ChatGPT, un asistente virtual, recomendaciones de Netflix, traductor automático, chatbot, reconocimiento facial, etc. Piensa en ese momento: ¿Dónde estabas? ¿Qué necesitabas? ¿Qué herramienta usaste?</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <button class="accordion-header">
+                                        <span>¿Qué emoción predominó en ese momento?</span>
+                                        <span class="accordion-icon">+</span>
+                                    </button>
+                                    <div class="accordion-content">
+                                        <p>Curiosidad, desconfianza, sorpresa, frustración, fascinación, miedo, entusiasmo, confusión... No hay emociones correctas o incorrectas. Todas son válidas y nos dicen algo importante sobre nuestra relación con la tecnología.</p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <button class="accordion-header">
+                                        <span>¿Qué ha cambiado desde entonces en tu percepción?</span>
+                                        <span class="accordion-icon">+</span>
+                                    </button>
+                                    <div class="accordion-content">
+                                        <p>¿Sigues sintiendo lo mismo? ¿Tu perspectiva evolucionó? ¿Qué aprendiste en el camino? Esta reflexión sobre nuestro propio recorrido es el punto de partida para comprender cómo integramos tecnologías en educación.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- BIOGRAFÍAS EN CARDS CON MODAL -->
+                            <h4>Ejemplos de biografías tecnológicas</h4>
+                            <div class="biografias-grid">
+                                <div class="biografia-card" onclick="openModal('modal-juan')">
+                                    <h5>Juan Martín</h5>
+                                    <p>Chatbot municipal</p>
+                                    <span class="ver-mas">Ver más →</span>
+                                </div>
+                                <div class="biografia-card" onclick="openModal('modal-maria')">
+                                    <h5>María Eugenia</h5>
+                                    <p>Apple Watch + Siri</p>
+                                    <span class="ver-mas">Ver más →</span>
+                                </div>
+                                <div class="biografia-card" onclick="openModal('modal-andrea')">
+                                    <h5>Andrea</h5>
+                                    <p>Google Traductor en viaje</p>
+                                    <span class="ver-mas">Ver más</span>
+                                </div>
+                                <div class="biografia-card" onclick="openModal('modal-walter')">
+                                    <h5>Walter</h5>
+                                    <p>ChatGPT para exámenes</p>
+                                    <span class="ver-mas">Ver más</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="content-sidebar">
+                            <div class="info-box">
+                                <h5>Patrones identificados</h5>
+                                <ul>
+                                    <li><strong>Trayectoria emocional:</strong> De la sorpresa a la naturalización</li>
+                                    <li><strong>Antropomorfización:</strong> Atribuimos cualidades humanas a algoritmos</li>
+                                    <li><strong>Desmitificación:</strong> De la "magia" a la comprensión</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MOMENTO 3 -->
+                <div class="tab-panel" id="momento3">
+                    <div class="moment-header-tab">
+                        <h3>Conceptualizar jugando</h3>
+                        <span class="badge">20 minutos</span>
+                    </div>
+                    
+                    <div class="content-full">
+                        <h4>Juego: Mitos y Verdades sobre IA</h4>
+                        <p class="intro-text">Analiza cada afirmación y decide si es MITO o VERDAD. Haz clic en cada tarjeta para ver la respuesta fundamentada.</p>
+                        
+                        <!-- FLIP CARDS -->
+                        <div class="flip-cards-grid">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <div class="card-number">1</div>
+                                        <p>"La IA comprende el significado de los textos que genera"</p>
+                                        <span class="flip-hint">Click para ver respuesta</span>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <span class="badge-mito">MITO</span>
+                                        <p>La IA generativa no comprende significados. Opera mediante predicción estadística de la siguiente palabra más probable basándose en patrones en datos de entrenamiento.</p>
+                                        <small>Russell & Norvig, 2020</small>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <div class="card-number">2</div>
+                                        <p>"Los LLMs pueden reemplazar completamente la enseñanza humana"</p>
+                                        <span class="flip-hint">Click para ver respuesta</span>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <span class="badge-mito">MITO</span>
+                                        <p>La enseñanza implica dimensiones relacionales, éticas y emocionales que no pueden ser replicadas por algoritmos. Requiere siempre "humano en el bucle".</p>
+                                        <small>UNESCO, 2021</small>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <div class="card-number">3</div>
+                                        <p>"La IA puede perpetuar sesgos presentes en los datos de entrenamiento"</p>
+                                        <span class="flip-hint">Click para ver respuesta</span>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <span class="badge-verdad">VERDAD</span>
+                                        <p>Los modelos de IA aprenden de datos históricos que reflejan sesgos sociales, culturales y de género. Si los datos contienen discriminación, el modelo la reproducirá.</p>
+                                        <small>Ferrarelli, 2024</small>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <div class="card-number">4</div>
+                                        <p>"El uso de IA en educación siempre mejora los resultados de aprendizaje"</p>
+                                        <span class="flip-hint">Click para ver respuesta</span>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <span class="badge-mito">MITO</span>
+                                        <p>La tecnología por sí misma no garantiza mejoras. Depende del diseño pedagógico, la mediación docente y el contexto de uso.</p>
+                                        <small>Morozov, 2015</small>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <div class="card-number">5</div>
+                                        <p>"La alfabetización digital crítica es fundamental para usar IA en educación"</p>
+                                        <span class="flip-hint">Click para ver respuesta</span>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <span class="badge-verdad">VERDAD</span>
+                                        <p>Necesitamos comprender cómo funciona la IA, sus limitaciones, sesgos e implicancias éticas para tomar decisiones pedagógicas fundamentadas.</p>
+                                        <small>Buckingham, 2008</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- CONCEPTOS CLAVE -->
+                        <div class="conceptos-section">
+                            <h4>Conceptos fundamentales</h4>
+                            <p class="intro-text">Haz clic en cada concepto para profundizar en su definición, marco teórico y ejemplificaciones</p>
+                            <div class="conceptos-grid-compact">
+                                <div class="concepto-tag" onclick="openModal('modal-ia-estrecha')">IA Estrecha</div>
+                                <div class="concepto-tag" onclick="openModal('modal-prediccion')">Predicción Estadística</div>
+                                <div class="concepto-tag" onclick="openModal('modal-alfabetizacion')">Alfabetización Digital Crítica</div>
+                                <div class="concepto-tag" onclick="openModal('modal-humano-bucle')">Humano en el Bucle</div>
+                                <div class="concepto-tag" onclick="openModal('modal-solucionismo')">Solucionismo Tecnológico</div>
+                                <div class="concepto-tag" onclick="openModal('modal-sesgos')">Sesgos Algorítmicos</div>
+                                <div class="concepto-tag" onclick="openModal('modal-antropomorfizacion')">Antropomorfización</div>
+                                <div class="concepto-tag" onclick="openModal('modal-ecologia-medios')">Ecología de Medios</div>
+                                <div class="concepto-tag" onclick="openModal('modal-pensamiento-critico')">Pensamiento Crítico</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MOMENTO 4 -->
+                <div class="tab-panel" id="momento4">
+                    <div class="moment-header-tab">
+                        <h3>Explorar creando con IA</h3>
+                        <span class="badge">35 minutos</span>
+                    </div>
+                    
+                    <div class="content-grid">
+                        <div class="content-main">
+                            <div class="pasos-grid">
+                                <div class="paso-card">
+                                    <div class="paso-numero">1</div>
+                                    <h5>Pensar asistido (10 min)</h5>
+                                    <p>Usar IA conversacional para desarrollar un guion pedagógico breve</p>
+                                </div>
+                                <div class="paso-card">
+                                    <div class="paso-numero">2</div>
+                                    <h5>Crear imagen joven y animarla (15 min)</h5>
+                                    <p>Generar tu avatar fotorrealista que hable tu guion</p>
+                                </div>
+                                <div class="paso-card">
+                                    <div class="paso-numero">3</div>
+                                    <h5>Reflexionar (10 min)</h5>
+                                    <p>Compartir y reflexionar sobre el proceso creativo</p>
+                                </div>
+                            </div>
+                            
+                            <h4>Paso 1: Herramientas para pensar asistido por IA</h4>
+                            <p class="intro-text">Utiliza estas herramientas conversacionales para desarrollar tu guion pedagógico (máximo 150 palabras)</p>
+                            <div class="herramientas-grid">
+                                <a href="https://gemini.google.com/" target="_blank" class="herramienta-card">
+                                    <h5>Gemini</h5>
+                                    <p>IA conversacional de Google, ideal para iterar ideas pedagógicas</p>
+                                </a>
+                                <a href="https://chat.openai.com/" target="_blank" class="herramienta-card">
+                                    <h5>ChatGPT</h5>
+                                    <p>IA conversacional de OpenAI, excelente para refinar textos</p>
+                                </a>
+                                <a href="https://poe.com/" target="_blank" class="herramienta-card">
+                                    <h5>Poe</h5>
+                                    <p>Plataforma con múltiples modelos de IA disponibles</p>
+                                </a>
+                            </div>
+                            
+                            <h4>Paso 2: Herramientas para crear tu imagen joven y animarla</h4>
+                            <p class="intro-text">Estas herramientas generan avatares fotorrealistas animados que hablan tu guion</p>
+                            <div class="herramientas-grid">
+                                <a href="https://www.vidnoz.com/" target="_blank" class="herramienta-card">
+                                    <h5>Vidnoz</h5>
+                                    <p>Interfaz simple, múltiples avatares fotorrealistas</p>
+                                </a>
+                                <a href="https://www.heygen.com/" target="_blank" class="herramienta-card">
+                                    <h5>HeyGen</h5>
+                                    <p>Alta calidad, personalización avanzada de avatares</p>
+                                </a>
+                                <a href="https://www.d-id.com/" target="_blank" class="herramienta-card">
+                                    <h5>D-ID</h5>
+                                    <p>Rápido y fácil, resultados profesionales</p>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="content-sidebar">
+                            <div class="info-box warning">
+                                <h5>Consideraciones</h5>
+                                <ul>
+                                    <li><strong>Supervisión crítica:</strong> No te adaptes acríticamente</li>
+                                    <li><strong>Iteración reflexiva:</strong> Cada ajuste es una decisión pedagógica</li>
+                                    <li><strong>Humano en el bucle:</strong> Tú diseñas, decides y evalúas</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MOMENTO 5 -->
+                <div class="tab-panel" id="momento5">
+                    <div class="moment-header-tab">
+                        <h3>Cierre reflexivo</h3>
+                        <span class="badge">10 minutos</span>
+                    </div>
+                    
+                    <div class="content-full">
+                        <h4>Ideas clave del encuentro</h4>
+                        <p class="intro-text">Haz clic en cada idea para profundizar</p>
+                        <div class="ideas-grid">
+                            <div class="idea-card" onclick="openModal('modal-idea1')">
+                                <div class="idea-numero">1</div>
+                                <h5>Diversidad como punto de partida</h5>
+                                <p>Nuestras biografías tecnológicas son diversas y todas son válidas</p>
+                                <span class="ver-mas">Ver más →</span>
+                            </div>
+                            <div class="idea-card" onclick="openModal('modal-idea2')">
+                                <div class="idea-numero">2</div>
+                                <h5>Desmitificación necesaria</h5>
+                                <p>La IA no comprende, no piensa. Opera mediante predicción estadística</p>
+                                <span class="ver-mas">Ver más →</span>
+                            </div>
+                            <div class="idea-card" onclick="openModal('modal-idea3')">
+                                <div class="idea-numero">3</div>
+                                <h5>Humano en el bucle siempre</h5>
+                                <p>La IA es una herramienta que requiere supervisión y responsabilidad humana</p>
+                                <span class="ver-mas">Ver más →</span>
+                            </div>
+                        </div>
+                        
+                        <div class="proximos-pasos-box">
+                            <h4>Próximos pasos</h4>
+                            <div class="pasos-columns">
+                                <div>
+                                    <h5>En la Práctica 5</h5>
+                                    <ul>
+                                        <li>Completar creación del avatar</li>
+                                        <li>Revisar libro "Conceptualizamos"</li>
+                                        <li>Compartir reflexión</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h5>Hacia la Práctica 6</h5>
+                                    <p>Integraremos todos los aprendizajes para analizar y enriquecer nuestras prácticas pedagógicas con IA</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="encuentro-box">
+                            <h4>Próximo encuentro sincrónico</h4>
+                            <p><strong>Jueves 14 de noviembre | 18:00 hs</strong></p>
+                            <p>Integración de IA en prácticas pedagógicas</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>Especialización en Docencia Universitaria | Universidad Nacional de Cuyo</p>
+            <p>Módulo 2: El aprendizaje en la universidad | Cohorte 29</p>
+        </div>
+    </footer>
+
+    <!-- MODALS -->
+    <div class="modal" id="modal-juan">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('modal-juan')">&times;</button>
+            <h3>Juan Martín - Chatbot Municipal</h3>
+            <p><strong>Contexto:</strong> Hace 5-6 años, interacción con chatbot de municipio por una multa de tránsito</p>
+            <p><strong>Emoción inicial:</strong> Sin expectativas, sin opciones</p>
+            <p><strong>Resultado:</strong> Sorpresa positiva al resolverse</p>
+            <p><strong>Reflexión:</strong> "Enojarse con un robot no tiene mucho sentido"</p>
+            <p><strong>Aprendizaje:</strong> La resolución exitosa cambió su perspectiva de incredulidad a confianza</p>
+            <p><strong>Conceptos vinculados:</strong> IA estrecha, Mediación tecnológica, Solucionismo tecnológico</p>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-maria">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('modal-maria')">&times;</button>
+            <h3>María Eugenia - Apple Watch + Siri</h3>
+            <p><strong>Contexto:</strong> Hace un par de años, reloj inteligente para uso deportivo</p>
+            <p><strong>Emoción inicial:</strong> No es fanática de la tecnología, pero la incorpora sin resistencias</p>
+            <p><strong>Resultado:</strong> Comodidad creciente</p>
+            <p><strong>Reflexión:</strong> "La asistencia de Siri se volvió tan cómoda que ahora salgo de casa solo con el reloj (sin celular ni billetera)"</p>
+            <p><strong>Aprendizaje:</strong> El reloj pasó de ser un dispositivo deportivo a ser un asistente integral</p>
+            <p><strong>Conceptos vinculados:</strong> Antropomorfización algorítmica, Dependencia tecnológica, Ecología de medios</p>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-andrea">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('modal-andrea')">&times;</button>
+            <h3>Andrea - Google Traductor</h3>
+            <p><strong>Contexto:</strong> Viaje al extranjero, no hablaba el idioma, necesitaba llegar a estación de tren</p>
+            <p><strong>Emoción inicial:</strong> Estrés, pérdida, nerviosismo</p>
+            <p><strong>Herramienta:</strong> Google Traductor (traducción bidireccional en tiempo real)</p>
+            <p><strong>Resultado:</strong> Alivio, sorpresa, gratitud</p>
+            <p><strong>Reflexión:</strong> "En ese momento lo vi como algo casi mágico. Ahora lo entiendo como herramienta poderosa que depende de cómo la usamos"</p>
+            <p><strong>Aprendizaje:</strong> Ya no le da miedo, pero invita a reflexionar sobre "responsabilidad al usarla"</p>
+            <p><strong>Conceptos vinculados:</strong> Desmitificación de la IA, Alfabetización digital crítica, Humano en el bucle</p>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+    <!-- MODALS DE CONCEPTOS FUNDAMENTALES -->
+    <div class="modal" id="modal-ia-estrecha">
+        <div class="modal-content modal-concepto">
+            <button class="modal-close" onclick="closeModal('modal-ia-estrecha')">&times;</button>
+            <div class="concepto-header">
+                <h3>IA Estrecha (Narrow AI)</h3>
+            </div>
+            <div class="concepto-body">
+                <div class="concepto-definicion">
+                    <h4>Definición</h4>
+                    <p>La Inteligencia Artificial Estrecha es aquella diseñada y entrenada para realizar una tarea específica o un conjunto limitado de tareas. A diferencia de la IA General (que aún no existe), la IA estrecha no posee conciencia, comprensión ni capacidad de transferir aprendizajes entre dominios diferentes.</p>
+                </div>
+                
+                <div class="concepto-cita">
+                    <blockquote>"Los sistemas actuales de IA son especialistas extraordinarios pero generalistas incompetentes. Pueden superar a los humanos en tareas específicas, pero carecen de la flexibilidad cognitiva que caracteriza la inteligencia humana."</blockquote>
+                    <cite>Russell & Norvig (2020) - Inteligencia Artificial: Un enfoque moderno</cite>
+                </div>
+                
+                <div class="concepto-ejemplos">
+                    <h4>Ejemplificaciones en educación</h4>
+                    <ul>
+                        <li><strong>ChatGPT:</strong> Excelente para generar texto, pero no puede evaluar la calidad pedagógica de sus propias respuestas</li>
+                        <li><strong>Sistemas de recomendación:</strong> Sugieren recursos educativos basándose en patrones, pero no comprenden el contexto de aprendizaje del estudiante</li>
+                        <li><strong>Correctores automáticos:</strong> Identifican errores gramaticales, pero no evalúan la coherencia argumentativa o la profundidad conceptual</li>
+                    </ul>
+                </div>
+                
+                <div class="concepto-implicancia">
+                    <h4>Implicancia pedagógica</h4>
+                    <p>Como docentes, debemos comprender que la IA es una herramienta especializada que requiere supervisión humana. No puede reemplazar la mediación pedagógica integral, pero puede potenciar aspectos específicos de nuestra práctica.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-prediccion">
+        <div class="modal-content modal-concepto">
+            <button class="modal-close" onclick="closeModal('modal-prediccion')">&times;</button>
+            <div class="concepto-header">
+                <h3>Predicción Estadística</h3>
+            </div>
+            <div class="concepto-body">
+                <div class="concepto-definicion">
+                    <h4>Definición</h4>
+                    <p>Los modelos de lenguaje grandes (LLMs) como ChatGPT operan mediante predicción estadística de la siguiente palabra más probable, basándose en patrones identificados en enormes conjuntos de datos de entrenamiento. No "comprenden" el significado de las palabras, sino que calculan probabilidades de secuencias lingüísticas.</p>
+                </div>
+                
+                <div class="concepto-cita">
+                    <blockquote>"Los LLMs no predicen la siguiente palabra en el sentido común del término. Más bien, calculan distribuciones de probabilidad sobre un vocabulario basándose en representaciones vectoriales aprendidas de contextos lingüísticos."</blockquote>
+                    <cite>Ferrante (2022) - Educación y tecnologías en perspectiva</cite>
+                </div>
+                
+                <div class="concepto-ejemplos">
+                    <h4>Ejemplificaciones en educación</h4>
+                    <ul>
+                        <li><strong>Respuestas plausibles pero incorrectas:</strong> ChatGPT puede generar explicaciones que "suenan" correctas pero contienen errores conceptuales</li>
+                        <li><strong>Sesgos en datos de entrenamiento:</strong> Si los datos reflejan estereotipos, el modelo los reproducirá en sus respuestas</li>
+                        <li><strong>Alucinaciones:</strong> El modelo puede "inventar" referencias bibliográficas o datos que no existen, porque estadísticamente son plausibles</li>
+                    </ul>
+                </div>
+                
+                <div class="concepto-implicancia">
+                    <h4>Implicancia pedagógica</h4>
+                    <p>Debemos enseñar a nuestros estudiantes (y recordarnos a nosotros mismos) que la IA no "sabe" ni "comprende". Por eso es fundamental verificar, contrastar y evaluar críticamente todo lo que produce.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-alfabetizacion">
+        <div class="modal-content modal-concepto">
+            <button class="modal-close" onclick="closeModal('modal-alfabetizacion')">&times;</button>
+            <div class="concepto-header">
+                <h3>Alfabetización Digital Crítica</h3>
+            </div>
+            <div class="concepto-body">
+                <div class="concepto-definicion">
+                    <h4>Definición</h4>
+                    <p>La alfabetización digital crítica va más allá del uso instrumental de tecnologías. Implica comprender cómo funcionan, quién las diseña, qué intereses representan, qué sesgos contienen y qué implicancias éticas, sociales y políticas tienen. En el contexto de IA, significa desarrollar capacidad de análisis sobre sus potencialidades y limitaciones.</p>
+                </div>
+                
+                <div class="concepto-cita">
+                    <blockquote>"La alfabetización mediática no consiste simplemente en adquirir información o habilidades funcionales, ni tampoco en protegerse de influencias negativas. Se trata de desarrollar una comprensión amplia y sistemática de cómo operan los medios y de cómo producen significado."</blockquote>
+                    <cite>Buckingham (2008) - Más allá de la tecnología</cite>
+                </div>
+                
+                <div class="concepto-ejemplos">
+                    <h4>Ejemplificaciones en educación</h4>
+                    <ul>
+                        <li><strong>Analizar prompts:</strong> Enseñar a los estudiantes a formular preguntas críticas sobre cómo construyen sus consultas a la IA</li>
+                        <li><strong>Identificar sesgos:</strong> Proponer actividades donde se evidencien los sesgos de género, culturales o disciplinares en las respuestas de IA</li>
+                        <li><strong>Comparar fuentes:</strong> Contrastar respuestas de IA con bibliografía académica para desarrollar criterios de evaluación</li>
+                    </ul>
+                </div>
+                
+                <div class="concepto-implicancia">
+                    <h4>Implicancia pedagógica</h4>
+                    <p>Nuestra responsabilidad como docentes es formar usuarios críticos de IA, no consumidores acríticos. Esto requiere integrar la reflexión sobre tecnología como contenido curricular transversal.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-humano-bucle">
+        <div class="modal-content modal-concepto">
+            <button class="modal-close" onclick="closeModal('modal-humano-bucle')">&times;</button>
+            <div class="concepto-header">
+                <h3>Humano en el Bucle (Human in the Loop)</h3>
+            </div>
+            <div class="concepto-body">
+                <div class="concepto-definicion">
+                    <h4>Definición</h4>
+                    <p>El principio de "humano en el bucle" establece que en procesos que involucran IA, especialmente en contextos de alto impacto como la educación, debe haber siempre supervisión, intervención y responsabilidad humana. La IA asiste, pero no decide; propone, pero no evalúa; genera, pero no valida.</p>
+                </div>
+                
+                <div class="concepto-cita">
+                    <blockquote>"Los sistemas de IA en educación deben ser diseñados con supervisión humana significativa, donde los educadores mantengan la autoridad final sobre decisiones pedagógicas y evaluativas que afectan a los estudiantes."</blockquote>
+                    <cite>UNESCO (2021) - Recomendación sobre la Ética de la IA</cite>
+                </div>
+                
+                <div class="concepto-ejemplos">
+                    <h4>Ejemplificaciones en educación</h4>
+                    <ul>
+                        <li><strong>Corrección de trabajos:</strong> La IA puede identificar errores, pero el docente debe evaluar la comprensión conceptual y el proceso de aprendizaje</li>
+                        <li><strong>Diseño de actividades:</strong> La IA puede sugerir consignas, pero el docente debe adaptarlas al contexto específico de su grupo</li>
+                        <li><strong>Retroalimentación:</strong> La IA puede generar comentarios genéricos, pero el docente debe personalizarlos según las trayectorias individuales</li>
+                    </ul>
+                </div>
+                
+                <div class="concepto-implicancia">
+                    <h4>Implicancia pedagógica</h4>
+                    <p>La IA no nos reemplaza, nos interpela. Nos obliga a explicitar qué decisiones pedagógicas son delegables y cuáles son inalienablemente humanas. La mediación docente sigue siendo insustituible.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-solucionismo">
+        <div class="modal-content modal-concepto">
+            <button class="modal-close" onclick="closeModal('modal-solucionismo')">&times;</button>
+            <div class="concepto-header">
+                <h3>Solucionismo Tecnológico</h3>
+            </div>
+            <div class="concepto-body">
+                <div class="concepto-definicion">
+                    <h4>Definición</h4>
+                    <p>El solucionismo tecnológico es la creencia de que toda problemática social, educativa o política puede resolverse mediante la aplicación de tecnología, sin considerar las dimensiones culturales, políticas, económicas y pedagógicas que la atraviesan. En educación, se manifiesta cuando se asume que incorporar IA automáticamente mejorará los aprendizajes.</p>
+                </div>
+                
+                <div class="concepto-cita">
+                    <blockquote>"El solucionismo tecnológico es la ideología que sostiene que, dado el conjunto correcto de incentivos, innovaciones tecnológicas y herramientas digitales, la tecnología puede resolver todos los problemas de la humanidad, incluidos aquellos que son esencialmente políticos o sociales."</blockquote>
+                    <cite>Morozov (2015) - La locura del solucionismo tecnológico</cite>
+                </div>
+                
+                <div class="concepto-ejemplos">
+                    <h4>Ejemplificaciones en educación</h4>
+                    <ul>
+                        <li><strong>Falacia de la herramienta mágica:</strong> Creer que usar ChatGPT resolverá problemas de comprensión lectora sin trabajar estrategias pedagógicas específicas</li>
+                        <li><strong>Invisibilización de desigualdades:</strong> Implementar IA sin considerar brechas de acceso, alfabetización digital o contextos socioculturales</li>
+                        <li><strong>Despedagogización:</strong> Delegar en la IA decisiones que requieren juicio pedagógico fundamentado</li>
+                    </ul>
+                </div>
+                
+                <div class="concepto-implicancia">
+                    <h4>Implicancia pedagógica</h4>
+                    <p>Debemos resistir la tentación de buscar "soluciones rápidas" en la IA. La integración reflexiva de tecnología requiere tiempo, formación, experimentación y evaluación crítica de sus efectos reales en los aprendizajes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-sesgos">
+        <div class="modal-content modal-concepto">
+            <button class="modal-close" onclick="closeModal('modal-sesgos')">&times;</button>
+            <div class="concepto-header">
+                <h3>Sesgos Algorítmicos</h3>
+            </div>
+            <div class="concepto-body">
+                <div class="concepto-definicion">
+                    <h4>Definición</h4>
+                    <p>Los sesgos algorítmicos son distorsiones sistemáticas en los resultados producidos por sistemas de IA, que reflejan y amplifican prejuicios presentes en los datos de entrenamiento, en las decisiones de diseño o en los contextos de aplicación. Estos sesgos pueden ser de género, raza, clase social, geográficos, culturales o disciplinares.</p>
+                </div>
+                
+                <div class="concepto-cita">
+                    <blockquote>"Los algoritmos no son neutrales. Son artefactos culturales que incorporan valores, prioridades y visiones del mundo de quienes los diseñan y de las sociedades que generan los datos con los que se entrenan."</blockquote>
+                    <cite>Ferrarelli (2024) - IA y Educación en América Latina</cite>
+                </div>
+                
+                <div class="concepto-ejemplos">
+                    <h4>Ejemplificaciones en educación</h4>
+                    <ul>
+                        <li><strong>Sesgo de género:</strong> ChatGPT puede asociar ciertas profesiones o roles con géneros específicos, reforzando estereotipos</li>
+                        <li><strong>Sesgo cultural:</strong> Los modelos entrenados mayormente en inglés pueden tener menor precisión o reproducir visiones eurocéntricas en otros idiomas</li>
+                        <li><strong>Sesgo disciplinar:</strong> La IA puede privilegiar enfoques cuantitativos sobre cualitativos, o perspectivas dominantes sobre emergentes</li>
+                    </ul>
+                </div>
+                
+                <div class="concepto-implicancia">
+                    <h4>Implicancia pedagógica</h4>
+                    <p>Como docentes, debemos visibilizar estos sesgos con nuestros estudiantes, convertirlos en objeto de análisis crítico y enseñar a identificarlos, cuestionarlos y contrarrestarlos mediante el uso reflexivo de múltiples fuentes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+    <!-- MODAL WALTER ULLOA -->
+    <div class="modal" id="modal-walter">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('modal-walter')">&times;</button>
+            <h3>Walter Ulloa - ChatGPT para Exámenes</h3>
+            <p><strong>Contexto:</strong> Primera experiencia con ChatGPT para crear exámenes múltiple choice</p>
+            <p><strong>Emoción inicial:</strong> Ansiedad, desconfianza, asombro e inquietud</p>
+            <p><strong>Resultado:</strong> La herramienta creó preguntas y opciones, generando resistencia inicial</p>
+            <p><strong>Reflexión:</strong> "Sentí que el trabajo no provenía de mi propio esfuerzo, sino de una 'máquina'. Pensé que su uso podía ser negativo"</p>
+            <p><strong>Evolución:</strong> Con el tiempo exploró Gemini y otras herramientas, descubriendo su potencial para organizar ideas y ofrecer perspectivas</p>
+            <p><strong>Aprendizaje:</strong> "Hoy reconozco a la IA como herramienta valiosa que exige uso ético, reflexivo y responsable. No reemplaza el pensamiento humano, sino que funciona como andamiaje"</p>
+            <p><strong>Conceptos vinculados:</strong> Del temor a la confianza responsable, Humano en el bucle, Pensamiento crítico, Andamiaje cognitivo</p>
+        </div>
+    </div>
+
+    <!-- MODALS DE CONCEPTOS ADICIONALES -->
+    <div class="modal" id="modal-antropomorfizacion">
+        <div class="modal-content modal-concepto">
+            <button class="modal-close" onclick="closeModal('modal-antropomorfizacion')">&times;</button>
+            <div class="concepto-header">
+                <h3>Antropomorfización de la IA</h3>
+            </div>
+            <div class="concepto-body">
+                <div class="concepto-definicion">
+                    <h4>Definición</h4>
+                    <p>La antropomorfización es la tendencia a atribuir características, intenciones, emociones o capacidades humanas a sistemas de IA que no las poseen. Esto ocurre cuando usamos verbos como "pensar", "comprender", "saber", "querer" o "decidir" para describir el funcionamiento de algoritmos que solo procesan datos mediante cálculos estadísticos.</p>
+                </div>
+                
+                <div class="concepto-cita">
+                    <blockquote>"El lenguaje que usamos para hablar de la IA no es inocente. Cuando decimos que ChatGPT 'entiende' o 'razona', estamos proyectando sobre la máquina capacidades que solo existen en nuestra imaginación, no en su código."</blockquote>
+                    <cite>Turkle (2017) - Alone Together</cite>
+                </div>
+                
+                <div class="concepto-ejemplos">
+                    <h4>Ejemplificaciones en educación</h4>
+                    <ul>
+                        <li><strong>Lenguaje cotidiano:</strong> Decir "ChatGPT me explicó" en lugar de "ChatGPT generó una explicación basada en patrones"</li>
+                        <li><strong>Delegación de responsabilidad:</strong> "La IA decidió que esta respuesta era correcta" en lugar de "El algoritmo calculó mayor probabilidad para esta opción"</li>
+                        <li><strong>Expectativas irreales:</strong> Esperar que la IA "comprenda" el contexto específico de nuestros estudiantes como lo haría un docente</li>
+                    </ul>
+                </div>
+                
+                <div class="concepto-implicancia">
+                    <h4>Implicancia pedagógica</h4>
+                    <p>Debemos enseñar (y recordarnos) que la IA no tiene intencionalidad, conciencia ni comprensión. Usar lenguaje preciso nos ayuda a mantener una relación realista con la tecnología y a no delegar en ella decisiones que requieren juicio humano.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-ecologia-medios">
+        <div class="modal-content modal-concepto">
+            <button class="modal-close" onclick="closeModal('modal-ecologia-medios')">&times;</button>
+            <div class="concepto-header">
+                <h3>Ecología de Medios</h3>
+            </div>
+            <div class="concepto-body">
+                <div class="concepto-definicion">
+                    <h4>Definición</h4>
+                    <p>La ecología de medios es una perspectiva teórica que estudia cómo las tecnologías y medios de comunicación funcionan como ambientes que estructuran nuestras percepciones, experiencias y formas de pensar. Cada tecnología no es neutral: crea un entorno que favorece ciertos modos de comunicación, aprendizaje y relación, mientras dificulta otros.</p>
+                </div>
+                
+                <div class="concepto-cita">
+                    <blockquote>"Los medios no son solo canales de información. Son ambientes que moldean la experiencia humana. Cada tecnología tiene su propia gramática, sus propios sesgos y sus propias consecuencias sociales."</blockquote>
+                    <cite>Postman (1992) - Tecnópolis</cite>
+                </div>
+                
+                <div class="concepto-ejemplos">
+                    <h4>Ejemplificaciones en educación</h4>
+                    <ul>
+                        <li><strong>Cambio en la escritura:</strong> La IA generativa favorece textos fluidos y extensos, pero puede dificultar la síntesis y la escritura concisa</li>
+                        <li><strong>Modificación de la lectura:</strong> El acceso inmediato a resúmenes generados por IA puede reducir la práctica de lectura profunda y sostenida</li>
+                        <li><strong>Transformación de la investigación:</strong> La IA facilita encontrar información, pero puede debilitar la capacidad de formular preguntas originales y navegar la incertidumbre</li>
+                    </ul>
+                </div>
+                
+                <div class="concepto-implicancia">
+                    <h4>Implicancia pedagógica</h4>
+                    <p>Como docentes, debemos preguntarnos qué habilidades, prácticas y formas de pensamiento se potencian y cuáles se debilitan cuando integramos IA en nuestras propuestas. No se trata de rechazar la tecnología, sino de diseñar intencionalmente para compensar sus sesgos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-pensamiento-critico">
+        <div class="modal-content modal-concepto">
+            <button class="modal-close" onclick="closeModal('modal-pensamiento-critico')">&times;</button>
+            <div class="concepto-header">
+                <h3>Pensamiento Crítico con IA</h3>
+            </div>
+            <div class="concepto-body">
+                <div class="concepto-definicion">
+                    <h4>Definición</h4>
+                    <p>El pensamiento crítico en el contexto de IA implica la capacidad de analizar, evaluar y cuestionar tanto los procesos como los productos generados por sistemas algorítmicos. Incluye identificar sesgos, reconocer limitaciones, contrastar fuentes, verificar información y tomar decisiones fundamentadas sobre cuándo, cómo y para qué usar IA.</p>
+                </div>
+                
+                <div class="concepto-cita">
+                    <blockquote>"El pensamiento crítico no es una habilidad genérica que se aplica igual en todos los contextos. Requiere conocimiento del dominio, comprensión de cómo funciona la tecnología y capacidad de reflexión sobre las propias prácticas."</blockquote>
+                    <cite>Perkins & Salomon (2012) - Teaching for Transfer</cite>
+                </div>
+                
+                <div class="concepto-ejemplos">
+                    <h4>Ejemplificaciones en educación</h4>
+                    <ul>
+                        <li><strong>Verificación de fuentes:</strong> Enseñar a los estudiantes a contrastar información generada por IA con bibliografía académica confiable</li>
+                        <li><strong>Análisis de sesgos:</strong> Proponer actividades donde se evidencien los sesgos de género, culturales o disciplinares en respuestas de ChatGPT</li>
+                        <li><strong>Evaluación de calidad:</strong> Desarrollar criterios para distinguir entre una respuesta plausible y una respuesta fundamentada, precisa y relevante</li>
+                    </ul>
+                </div>
+                
+                <div class="concepto-implicancia">
+                    <h4>Implicancia pedagógica</h4>
+                    <p>No basta con "prohibir" o "permitir" la IA. Debemos enseñar explícitamente a usarla críticamente: a formular buenas preguntas, a iterar prompts, a identificar errores, a complementar con otras fuentes y a reflexionar sobre el proceso. El pensamiento crítico con IA es una competencia que se enseña y se practica.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODALS DE IDEAS CLAVE DEL CIERRE -->
+    <div class="modal" id="modal-idea1">
+        <div class="modal-content modal-concepto">
+            <button class="modal-close" onclick="closeModal('modal-idea1')">&times;</button>
+            <div class="concepto-header">
+                <h3>Idea 1: Diversidad como punto de partida</h3>
+            </div>
+            <div class="concepto-body">
+                <div class="concepto-definicion">
+                    <h4>Ampliación conceptual</h4>
+                    <p>Nuestras biografías tecnológicas son diversas porque reflejan trayectorias personales, contextos institucionales, disciplinas, generaciones y accesos diferenciales a tecnología. Esta diversidad no es un problema a resolver, sino un punto de partida pedagógico valioso. Reconocer que cada docente y cada estudiante tiene una relación única con la IA nos permite diseñar propuestas inclusivas que no asuman conocimientos previos homogéneos.</p>
+                    <p>La diversidad también implica reconocer emociones variadas: curiosidad, entusiasmo, desconfianza, resistencia, ansiedad. Todas estas emociones son legítimas y merecen ser escuchadas y trabajadas pedagógicamente.</p>
+                </div>
+                
+                <div class="concepto-ejemplos">
+                    <h4>Ejemplos concretos</h4>
+                    <ul>
+                        <li><strong>En el aula:</strong> Proponer actividades donde los estudiantes compartan sus experiencias previas con IA antes de introducir nuevas herramientas</li>
+                        <li><strong>En la planificación:</strong> Diseñar múltiples puntos de entrada a una misma actividad, considerando diferentes niveles de familiaridad con IA</li>
+                        <li><strong>En la evaluación:</strong> Valorar tanto el proceso de aprendizaje como el producto final, reconociendo que los puntos de partida son diversos</li>
+                    </ul>
+                </div>
+                
+                <div class="concepto-implicancia">
+                    <h4>Preguntas para la reflexión</h4>
+                    <ul>
+                        <li>¿Qué supuestos tengo sobre el conocimiento tecnológico de mis estudiantes?</li>
+                        <li>¿Cómo puedo crear espacios seguros para que quienes tienen resistencia o desconfianza hacia la IA puedan expresarse?</li>
+                        <li>¿De qué manera mi propia biografía tecnológica influye en cómo diseño mis propuestas de enseñanza?</li>
+                        <li>¿Qué estrategias puedo implementar para que la diversidad de experiencias enriquezca el aprendizaje colectivo?</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-idea2">
+        <div class="modal-content modal-concepto">
+            <button class="modal-close" onclick="closeModal('modal-idea2')">&times;</button>
+            <div class="concepto-header">
+                <h3>Idea 2: Desmitificación necesaria</h3>
+            </div>
+            <div class="concepto-body">
+                <div class="concepto-definicion">
+                    <h4>Ampliación conceptual</h4>
+                    <p>Desmitificar la IA significa comprender que no es mágica, no es inteligente en el sentido humano, no comprende, no piensa y no tiene intenciones. Los modelos de lenguaje como ChatGPT operan mediante predicción estadística: calculan la probabilidad de que una palabra siga a otra basándose en patrones identificados en millones de textos. Esta comprensión es fundamental para usar la IA de manera informada y responsable.</p>
+                    <p>La desmitificación también implica reconocer que la IA no es neutral: refleja los sesgos de sus datos de entrenamiento, las decisiones de sus diseñadores y los intereses de las corporaciones que la desarrollan. No es una entidad autónoma, sino un artefacto cultural y político.</p>
+                </div>
+                
+                <div class="concepto-ejemplos">
+                    <h4>Ejemplos concretos</h4>
+                    <ul>
+                        <li><strong>Actividad de "alucinaciones":</strong> Pedir a ChatGPT referencias bibliográficas y verificar cuántas son inventadas para evidenciar que no "sabe", solo predice</li>
+                        <li><strong>Comparación de respuestas:</strong> Hacer la misma pregunta a ChatGPT, Gemini y Perplexity para mostrar que no hay una "verdad" única, sino diferentes modelos entrenados con diferentes datos</li>
+                        <li><strong>Análisis de sesgos:</strong> Pedir a la IA que describa profesiones y analizar si reproduce estereotipos de género o culturales</li>
+                    </ul>
+                </div>
+                
+                <div class="concepto-implicancia">
+                    <h4>Preguntas para la reflexión</h4>
+                    <ul>
+                        <li>¿Qué lenguaje uso para hablar de la IA con mis estudiantes? ¿Antropomorfizan mis palabras?</li>
+                        <li>¿Cómo puedo enseñar explícitamente que la IA no comprende, aunque sus respuestas parezcan coherentes?</li>
+                        <li>¿De qué manera puedo convertir los errores de la IA en oportunidades de aprendizaje?</li>
+                        <li>¿Qué actividades puedo diseñar para que los estudiantes identifiquen sesgos algorítmicos?</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-idea3">
+        <div class="modal-content modal-concepto">
+            <button class="modal-close" onclick="closeModal('modal-idea3')">&times;</button>
+            <div class="concepto-header">
+                <h3>Idea 3: Humano en el bucle siempre</h3>
+            </div>
+            <div class="concepto-body">
+                <div class="concepto-definicion">
+                    <h4>Ampliación conceptual</h4>
+                    <p>El principio de "humano en el bucle" establece que en procesos educativos que involucran IA, la responsabilidad, la supervisión y la decisión final siempre deben ser humanas. La IA puede asistir, sugerir, generar opciones, pero no puede reemplazar el juicio pedagógico que considera el contexto, las trayectorias, las emociones y los propósitos formativos específicos de cada situación de enseñanza.</p>
+                    <p>Este principio también implica que los docentes debemos mantener nuestra capacidad de análisis crítico, nuestra autonomía profesional y nuestra responsabilidad ética. No podemos delegar en la IA decisiones que nos corresponden como educadores.</p>
+                </div>
+                
+                <div class="concepto-ejemplos">
+                    <h4>Ejemplos concretos</h4>
+                    <ul>
+                        <li><strong>Retroalimentación:</strong> La IA puede identificar errores gramaticales, pero el docente debe evaluar la comprensión conceptual y ofrecer retroalimentación personalizada</li>
+                        <li><strong>Diseño de actividades:</strong> La IA puede sugerir consignas, pero el docente debe adaptarlas al grupo específico, sus intereses y su nivel de desarrollo</li>
+                        <li><strong>Evaluación:</strong> La IA puede calificar respuestas cerradas, pero el docente debe interpretar los procesos de aprendizaje y tomar decisiones pedagógicas fundamentadas</li>
+                    </ul>
+                </div>
+                
+                <div class="concepto-implicancia">
+                    <h4>Preguntas para la reflexión</h4>
+                    <ul>
+                        <li>¿En qué momentos de mi práctica docente la IA puede asistirme sin reemplazar mi juicio pedagógico?</li>
+                        <li>¿Qué decisiones son inalienablemente humanas y no deben delegarse en algoritmos?</li>
+                        <li>¿Cómo puedo enseñar a mis estudiantes a usar IA manteniendo su autonomía intelectual?</li>
+                        <li>¿De qué manera puedo supervisar críticamente lo que la IA produce para asegurar calidad y pertinencia pedagógica?</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
